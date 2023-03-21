@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Login Form Using Js</title>
+    <link rel="stylesheet" type="text/css" href="./css.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinbx">
+                <div class="imgbx">
+                    <img src="./vol2.JPG">
+                </div>
+                <div class="formbx">
+                    <form>
+                        <h2>Volunteer</h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Mobile Number">
+                        <input type="text" placeholder="Address">
+                        <input type="button" value="Be a Part"button onclick="./thankyou.html">
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+
+<script>
+// js added
+function formToggle(){
+    container = document.querySelector('.container');
+    section = document.querySelector('section');
+    container.classList.toggle('active')
+    section.classList.toggle('active');
+}
+</script>
+</html>
+
